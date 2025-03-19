@@ -5,6 +5,7 @@
     [
       ./hardware-configuration.nix
       ../../modules/system/keyboard/keyd.nix
+      ../../modules/system/programs/1password.nix
     ];
 
   boot.loader.systemd-boot.enable = true;
@@ -109,22 +110,7 @@
     };
   };
 
-  programs._1password.enable = true;
-  programs._1password-gui = {
-    enable = true;
-    # Certain features, including CLI integration and system authentication support,
-    # require enabling PolKit integration on some desktop environments (e.g. Plasma).
-    polkitPolicyOwners = [ "ingowolf" ];
-  };
 
-  environment.etc = {
-    "1password/custom_allowed_browsers" = {
-      text = ''
-        .zen-wrapped
-      '';
-      mode = "0755";
-    };
-  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
