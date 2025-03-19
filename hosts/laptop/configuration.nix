@@ -101,6 +101,7 @@
     pkgs.neovim
     pkgs.nixd
     pkgs.foot
+    pkgs.blender
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
