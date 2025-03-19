@@ -111,6 +111,7 @@
   #  wget
     zed-editor
     neovim
+    nixd
   ];
 
   programs.git = {
