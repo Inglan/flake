@@ -3,7 +3,7 @@
     enable = true;
     settings = {
       main = {
-        font = "Fira Code:size=20";
+        font = "Fira Code:size=12";
       };
     };
   };
