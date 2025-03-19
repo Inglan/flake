@@ -102,6 +102,7 @@
     pkgs.nixd
     pkgs.foot
     pkgs.blender
+    pkgs.chromium
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
