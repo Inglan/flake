@@ -100,6 +100,7 @@
     pkgs.zed-editor
     pkgs.neovim
     pkgs.nixd
+    pkgs.foot
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
