@@ -6,13 +6,14 @@
 
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
+    catppuccin.url = "github:catppuccin/nix";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
 
-  outputs = { self, nixpkgs, ... }@inputs: {
+  outputs = { self, nixpkgs, catppuccin, ... }@inputs: {
     # use "nixos", or your hostname as the name of the configuration
     # it's a better practice than "default" shown in the video
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
@@ -20,6 +21,14 @@
       modules = [
         ./hosts/laptop/configuration.nix
         inputs.home-manager.nixosModules.default
+        {
+          # if you use home-manager
+          home-manager.users.ingowolf = {
+            imports = [
+              catppuccin.homeManagerModules.catppuccin
+            ];
+          };
+        }
       ];
     };
   };
