@@ -103,6 +103,7 @@
     pkgs.foot
     pkgs.blender
     pkgs.chromium
+    pkgs.signal-desktop
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
