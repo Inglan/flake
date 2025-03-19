@@ -1,8 +1,9 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   imports = [
     ../../modules/home/programs/git.nix
+    ../../modules/home/programs/foot.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
