@@ -112,7 +112,7 @@
     pkgs.zed-editor
     pkgs.neovim
     pkgs.nixd
-    inputs.zen-browser.packages.x86.default
+    inputs.zen-browser.packages.default
   ];
 
   programs.git = {
