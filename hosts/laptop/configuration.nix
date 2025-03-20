@@ -102,7 +102,6 @@
     pkgs.nixd
     pkgs.foot
     pkgs.blender
-    pkgs.phosh
     pkgs.chromium
     pkgs.signal-desktop
     inputs.zen-browser.packages.x86_64-linux.default
