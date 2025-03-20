@@ -105,6 +105,8 @@
     pkgs.chromium
     pkgs.signal-desktop
     pkgs.kdePackages.kdenlive
+    pkgs.inkscape
+    pkgs.gimp
     pkgs.spotify
     inputs.zen-browser.packages.x86_64-linux.default
   ];
