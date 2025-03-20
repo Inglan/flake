@@ -104,7 +104,7 @@
     pkgs.blender
     pkgs.chromium
     pkgs.signal-desktop
-    pkgs.kdenlive
+    pkgs.kdePackages.kdenlive
     pkgs.spotify
     inputs.zen-browser.packages.x86_64-linux.default
   ];
