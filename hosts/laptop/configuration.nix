@@ -13,8 +13,6 @@
 
   programs.lazygit.enable = true;
 
-  catppuccin.zed.enable = true;
-
   networking.hostName = "laptop";
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
