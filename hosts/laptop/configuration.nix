@@ -92,7 +92,13 @@
       fi
     '';
   };
-  programs.fish.enable = true;
+
+  programs.fish = {
+    enable = true;
+    interactiveShellInit = ''
+      set -g fish_greeting
+    '';
+  };
 
   home-manager = {
     users = {
