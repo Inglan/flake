@@ -9,7 +9,7 @@
     ];
 
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "0xProto" ]; })
+    nerdfonts.0xProto
   ];
 
   boot.loader.systemd-boot.enable = true;
