@@ -101,7 +101,7 @@
     '';
   };
 
-  programs.nix-index.enable = true;
+  programs.command-not-found.enable = false;
 
   home-manager = {
     users = {
