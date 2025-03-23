@@ -129,6 +129,7 @@
     pkgs.gimp
     pkgs.remmina
     pkgs.spotify
+    pkgs.fishPlugins.tide
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
