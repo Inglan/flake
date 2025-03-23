@@ -135,7 +135,7 @@
     pkgs.remmina
     pkgs.spotify
     pkgs.fishPlugins.tide
-    pkgs.fishPlugs.autopair
+    pkgs.fishPlugins.autopair
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
