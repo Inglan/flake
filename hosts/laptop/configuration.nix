@@ -107,6 +107,7 @@
     pkgs.kdePackages.kdenlive
     pkgs.inkscape
     pkgs.gimp
+    pkgs.remmina
     pkgs.spotify
     inputs.zen-browser.packages.x86_64-linux.default
   ];
