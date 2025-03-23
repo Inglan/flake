@@ -8,6 +8,10 @@
       ../../modules/system/programs/1password.nix
     ];
 
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "0xProto" ]; })
+  ];
+
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
