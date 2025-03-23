@@ -1,4 +1,4 @@
-{ pkgs, inputs, catppuccin, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports =

@@ -20,6 +20,7 @@
       specialArgs = {inherit inputs;};
       modules = [
         ./hosts/laptop/configuration.nix
+        catppuccin.nixosModules.catppuccin
         inputs.home-manager.nixosModules.default
         {
           # if you use home-manager
