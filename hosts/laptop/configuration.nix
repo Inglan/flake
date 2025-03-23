@@ -101,6 +101,8 @@
     '';
   };
 
+  programs.nix-index.enableFishIntegration = true;
+
   programs.command-not-found.enable = false;
 
   home-manager = {
