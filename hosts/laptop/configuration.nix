@@ -103,7 +103,7 @@
 
   programs.nix-index.enableFishIntegration = true;
 
-  programs.command-not-found.enable = true;
+  programs.command-not-found.enable = false;
 
   home-manager = {
     users = {
