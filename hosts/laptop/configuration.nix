@@ -101,6 +101,8 @@
     '';
   };
 
+  programs.nix-index.enable = true;
+
   home-manager = {
     users = {
       "ingowolf" = import ./home.nix;
