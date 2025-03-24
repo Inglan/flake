@@ -97,7 +97,7 @@
   users.users.ingowolf = {
     isNormalUser = true;
     description = "Ingo Wolf";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" ];
   };
   programs.bash = {
     interactiveShellInit = ''
@@ -162,6 +162,8 @@
       init.defaultBranch = "main";
     };
   };
+
+  virtualisation.docker.enable = true;
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
