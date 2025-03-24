@@ -153,7 +153,7 @@
     #pkgs.fishPlugins.tide
     pkgs.fishPlugins.autopair
     pkgs.obsidian
-    pkgs.python
+    pkgs.python313
     pkgs.python313Packages.manim
     inputs.zen-browser.packages.x86_64-linux.default
   ];
