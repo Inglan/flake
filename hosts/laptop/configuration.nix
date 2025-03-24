@@ -17,7 +17,13 @@
   boot = {
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
-    plymouth.enable = true;
+    plymouth = {
+      enable = true;
+      theme = "catppuccin-mocha";
+      themePackages = with pkgs; [
+        catppuccin-plymouth
+      ];
+    };
     consoleLogLevel = 0;
     initrd.verbose = false;
     kernelParams = [
@@ -30,8 +36,6 @@
       "udev.log_priority=3"
     ];
   };
-
-  catppuccin.plymouth.enable = true;
 
   programs.lazygit.enable = true;
 
