@@ -136,6 +136,7 @@
     pkgs.spotify
     pkgs.fishPlugins.tide
     pkgs.fishPlugins.autopair
+    pkgs.obsidian
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
