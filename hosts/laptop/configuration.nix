@@ -17,6 +17,7 @@
   boot = {
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
+    loader.timeout = 1;
     consoleLogLevel = 0;
     initrd.verbose = false;
     kernelParams = [
