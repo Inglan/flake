@@ -14,8 +14,11 @@
 
   catppuccin.sddm.enable = true;
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot = {
+    loader.systemd-boot.enable = true;
+    loader.efi.canTouchEfiVariables = true;
+  };
+
 
   programs.lazygit.enable = true;
 
