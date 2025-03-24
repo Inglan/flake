@@ -5,6 +5,7 @@
     ../../modules/home/programs/git.nix
     ../../modules/home/programs/foot.nix
   ];
+  nixpkgs.config.allowUnfree = true;
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "ingowolf";
