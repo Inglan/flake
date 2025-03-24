@@ -31,6 +31,7 @@
     ];
   };
 
+  catppuccin.plymouth.enable = true;
 
   programs.lazygit.enable = true;
 
