@@ -17,13 +17,6 @@
   boot = {
     loader.systemd-boot.enable = true;
     loader.efi.canTouchEfiVariables = true;
-    plymouth = {
-      enable = true;
-      theme = "catppuccin-mocha";
-      themePackages = with pkgs; [
-        catppuccin-plymouth
-      ];
-    };
     consoleLogLevel = 0;
     initrd.verbose = false;
     kernelParams = [
