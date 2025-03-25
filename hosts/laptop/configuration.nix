@@ -157,6 +157,7 @@
     pkgs.nodejs
     pkgs.pnpm
     pkgs.kitty
+    pkgs.nwg-displays
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
