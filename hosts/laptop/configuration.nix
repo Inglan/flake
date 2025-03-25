@@ -154,6 +154,8 @@
     pkgs.fishPlugins.autopair
     pkgs.obsidian
     pkgs.vscode
+    pkgs.nodejs
+    pkgs.pnpm
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
