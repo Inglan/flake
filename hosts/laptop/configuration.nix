@@ -156,6 +156,7 @@
     pkgs.vscode
     pkgs.nodejs
     pkgs.pnpm
+    pkgs.kitty
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
