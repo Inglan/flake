@@ -8,11 +8,13 @@
         settings = {
           main = {
             esc = "capslock";
-            capslock = "esc";
-  	  };
+            capslock = "overload(directional, esc)";
+  	      };
+          directional = {
+            d = "~";
+          };
         };
       };
     };
   };
 }
-
