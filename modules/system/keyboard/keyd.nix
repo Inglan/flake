@@ -16,7 +16,7 @@
             k = "up";
             l = "right";
             "]" = "C-tab";
-            "[" = "C-shift-tab";
+            "[" = "C-S-tab";
           };
         };
       };
