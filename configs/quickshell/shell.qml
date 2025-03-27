@@ -5,8 +5,8 @@ ShellRoot {
   PanelWindow {
     anchors {
       top: true
+      bottom: true
       left: true
-      right: true
     }
 
     height: 30
