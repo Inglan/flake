@@ -6,7 +6,7 @@
       "$terminal" = "foot";
       "$browser" = "firefox";
       "$filemanager" = "dolphin";
-      "$menu" = "krunner";
+      "$menu" = "rofi -show drun";
       source = [
         "~/.config/hypr/monitors.conf"
         "~/.config/hypr/staging.conf"
@@ -24,6 +24,7 @@
           "$mod, Return, exec, foot"
           "$mod, B, exec, firefox"
           ", Print, exec, grimblast copy area"
+          ", SUPER_LEFT, exec, $menu"
         ]
         ++ (
           # workspaces
