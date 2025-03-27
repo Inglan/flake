@@ -159,6 +159,7 @@
     pkgs.pnpm
     pkgs.kitty
     pkgs.nwg-displays
+    pkgs.swww
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
