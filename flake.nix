@@ -7,6 +7,9 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
     catppuccin.url = "github:catppuccin/nix";
+
+    inputs.hyprland.url = "github:hyprwm/Hyprland";
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
