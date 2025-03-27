@@ -7,6 +7,9 @@
       "$browser" = "firefox";
       "$filemanager" = "dolphin";
       "$menu" = "krunner";
+      source = [
+        "~/.config/hypr/monitors.conf"
+      ];
       env = [
         "XCURSOR_SIZE,24"
         "HYPRCURSOR_SIZE,24"
