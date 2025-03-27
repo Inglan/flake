@@ -8,7 +8,7 @@
 
     catppuccin.url = "github:catppuccin/nix";
 
-    inputs.hyprland.url = "github:hyprwm/Hyprland";
+    hyprland.url = "github:hyprwm/Hyprland";
 
     home-manager = {
       url = "github:nix-community/home-manager";
