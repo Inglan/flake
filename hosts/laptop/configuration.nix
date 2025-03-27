@@ -160,6 +160,7 @@
     pkgs.kitty
     pkgs.nwg-displays
     pkgs.swww
+    pkgs.hyprpolkitagent
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
