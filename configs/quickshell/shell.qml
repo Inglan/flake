@@ -2,6 +2,10 @@ import Quickshell // for ShellRoot and PanelWindow
 import QtQuick // for Text
 
 ShellRoot {
+  SystemClock {
+    id: clock
+    precision: SystemClock.Seconds
+  }
   PanelWindow {
     anchors {
       top: true
@@ -15,7 +19,7 @@ ShellRoot {
       // center the bar in its parent component (the window)
       anchors.centerIn: parent
 
-      text: "hello world"
+      text: Qt.formatDateTime(clock.date, "hh:mm:ss")
     }
   }
 }
