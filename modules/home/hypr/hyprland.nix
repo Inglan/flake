@@ -9,6 +9,7 @@
       "$menu" = "krunner";
       source = [
         "~/.config/hypr/monitors.conf"
+        "~/.config/hypr/staging.conf"
       ];
       env = [
         "XCURSOR_SIZE,24"
