@@ -19,6 +19,9 @@
         gaps_in = 10;
         gaps_out = 10;
       };
+      exec-once = [
+        "systemctl --user start hyprpolkitagent"
+      ];
       bind =
         [
           "$mod, Return, exec, foot"
