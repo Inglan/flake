@@ -7,6 +7,10 @@
       "$browser" = "firefox";
       "$filemanager" = "dolphin";
       "$menu" = "krunner";
+      env = [
+        "XCURSOR_SIZE,24"
+        "HYPRCURSOR_SIZE,24"
+      ];
       bind =
         [
           "$mod, Return, exec, foot"
