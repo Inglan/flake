@@ -13,6 +13,7 @@
   home.homeDirectory = "/home/ingowolf";
 
   catppuccin.enable = true;
+  catppuccin.hyprland.enable = false;
 
   programs.ssh = {
     enable = true;
