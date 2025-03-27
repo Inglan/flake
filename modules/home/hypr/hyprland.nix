@@ -3,6 +3,10 @@
     enable = true;
     settings = {
       "$mod" = "SUPER";
+      "$terminal" = "foot";
+      "$browser" = "firefox";
+      "$filemanager" = "dolphin";
+      "$menu" = "krunner";
       bind =
         [
           "$mod, Return, exec, foot"
