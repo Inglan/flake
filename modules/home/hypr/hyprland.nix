@@ -24,7 +24,7 @@
           "$mod, Return, exec, foot"
           "$mod, B, exec, firefox"
           ", Print, exec, grimblast copy area"
-          ", Super_L, exec, $menu"
+          "$mod, Super_L, exec, $menu"
         ]
         ++ (
           # workspaces
