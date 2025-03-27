@@ -15,8 +15,8 @@
             j = "down";
             k = "up";
             l = "right";
-            f = "C-tab";
-            d = "C-S-tab";
+            f = "C-pagedown";
+            d = "C-pageup";
           };
         };
       };
