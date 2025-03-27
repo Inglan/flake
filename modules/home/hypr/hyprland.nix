@@ -11,6 +11,10 @@
         "XCURSOR_SIZE,24"
         "HYPRCURSOR_SIZE,24"
       ];
+      general = {
+        gaps_in = 10;
+        gaps_out = 10;
+      };
       bind =
         [
           "$mod, Return, exec, foot"
