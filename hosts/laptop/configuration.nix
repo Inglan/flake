@@ -164,6 +164,7 @@
     pkgs.rofi-wayland
     pkgs.kiwix
     pkgs.glib
+    pkgs.xdg-desktop-portal-hyprland
     inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.quickshell
     inputs.zen-browser.packages.x86_64-linux.default
   ];
