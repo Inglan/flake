@@ -165,7 +165,7 @@
     pkgs.kiwix
     pkgs.glib
     pkgs.yazi
-    pkgs.xdg-desktop-portal-termfilechooser
+    pkgs.xdg-desktop-portal-shana
     inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.quickshell
     inputs.zen-browser.packages.x86_64-linux.default
   ];
