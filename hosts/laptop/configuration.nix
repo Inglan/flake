@@ -169,6 +169,7 @@
     pkgs.unzip
     pkgs.zip
     pkgs.wget
+    pkgs.mcpelauncher-ui-qt
     pkgs.xdg-desktop-portal-shana
     inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.quickshell
     inputs.zen-browser.packages.x86_64-linux.default
