@@ -97,7 +97,7 @@
   users.users.ingowolf = {
     isNormalUser = true;
     description = "Ingo Wolf";
-    extraGroups = [ "networkmanager" "wheel" "docker" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "qemu-libvirtd" "libvirtd" ];
   };
   programs.bash = {
     interactiveShellInit = ''
@@ -134,7 +134,6 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  virtualisation.waydroid.enable = true;
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = [
@@ -169,6 +168,7 @@
     pkgs.unzip
     pkgs.zip
     pkgs.wget
+    pkgs.virt-manager
     pkgs.mcpelauncher-ui-qt
     pkgs.xdg-desktop-portal-shana
     inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.quickshell
@@ -189,6 +189,9 @@
   };
 
   virtualisation.docker.enable = true;
+  virtualisation.waydroid.enable = true;
+  virtualisation.libvirtd.enable = true;
+  boot.kernelModules = [ "kvm-amd" ];
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
