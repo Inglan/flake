@@ -152,6 +152,7 @@
     pkgs.gimp
     pkgs.remmina
     pkgs.spotify
+    pkgs.vesktop
     #pkgs.fishPlugins.tide
     pkgs.fishPlugins.autopair
     pkgs.obsidian
