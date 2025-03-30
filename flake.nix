@@ -7,7 +7,7 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
 
     catppuccin.url = "github:catppuccin/nix";
-
+    spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     hyprland.url = "github:hyprwm/Hyprland";
     quickshell = {
       url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
@@ -23,7 +23,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, catppuccin, ... }@inputs: {
+  outputs = { self, nixpkgs, catppuccin, spicetify-nix, ... }@inputs: {
     # use "nixos", or your hostname as the name of the configuration
     # it's a better practice than "default" shown in the video
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
@@ -31,6 +31,7 @@
       modules = [
         ./hosts/laptop/configuration.nix
         catppuccin.nixosModules.catppuccin
+        spicetify-nix.nixosModules.default
         inputs.home-manager.nixosModules.default
         {
           # if you use home-manager

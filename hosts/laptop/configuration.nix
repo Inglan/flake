@@ -151,7 +151,6 @@
     pkgs.inkscape
     pkgs.gimp
     pkgs.remmina
-    pkgs.spotify
     pkgs.vesktop
     #pkgs.fishPlugins.tide
     pkgs.fishPlugins.autopair
@@ -199,6 +198,17 @@
     trusted-public-keys = ["hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="];
   };
 
+  programs.spicetify =
+  let
+    spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.system};
+  in
+  {
+    enable = true;
+    theme = spicePkgs.themes.catppuccin;
+    enabledExtensions = with spicePkgs.extensions; [
+      beautifulLyrics
+    ];
+  };
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
