@@ -2,7 +2,6 @@
 
 {
   imports = [
-    inputs.ags.homeManagerModules.default
     ../../modules/home/programs/git.nix
     ../../modules/home/programs/foot.nix
     ../../modules/home/hypr/hyprland.nix
@@ -26,8 +25,7 @@
 
   programs.ags = {
     enable = true;
-
-    configDir = "../../ags";
+    configDir = ../../ags;
   };
 
   # This value determines the Home Manager release that your configuration is

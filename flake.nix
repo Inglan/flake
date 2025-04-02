@@ -17,7 +17,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, catppuccin, spicetify-nix, ... }@inputs: {
+  outputs = { self, nixpkgs, catppuccin, spicetify-nix, ags, ... }@inputs: {
     # use "nixos", or your hostname as the name of the configuration
     # it's a better practice than "default" shown in the video
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
@@ -32,6 +32,7 @@
           home-manager.users.ingowolf = {
             imports = [
               catppuccin.homeManagerModules.catppuccin
+              ags.homeManagerModules.default
             ];
           };
         }
