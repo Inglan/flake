@@ -13,7 +13,7 @@
       commit = {
         gpgsign = true;
       };
-
+      pull.rebase = false;
       user = {
         signingKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDFlaUR/043CCjtUXWjsAjjJE/cUeeJKiDtDr22oxcgT";
       };
