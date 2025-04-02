@@ -1,7 +1,8 @@
-{ ... }:
+{ inputs, ... }:
 
 {
   imports = [
+    inputs.ags.homeManagerModules.default
     ../../modules/home/programs/git.nix
     ../../modules/home/programs/foot.nix
     ../../modules/home/hypr/hyprland.nix
@@ -22,6 +23,12 @@
       IdentityAgent ~/.1password/agent.sock
     '';
   };
+
+programs.ags = {
+  enable = true;
+
+  configDir = "../../ags";
+};
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release

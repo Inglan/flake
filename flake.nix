@@ -9,7 +9,7 @@
     catppuccin.url = "github:catppuccin/nix";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     hyprland.url = "github:hyprwm/Hyprland";
-
+    ags.url = "github:aylur/ags";
 
     home-manager = {
       url = "github:nix-community/home-manager";
