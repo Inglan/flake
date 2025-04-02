@@ -121,6 +121,10 @@
 
   programs.command-not-found.enable = false;
 
+  services.udev.extraRules = ''
+    KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{serial}=="*vial:f64c2b3c*", MODE="0660", GROUP="${config.users.users.yourusername.name}", TAG+="uaccess", TAG+="udev-acl"
+  '';
+
   # Install firefox.
   programs.firefox.enable = true;
 
