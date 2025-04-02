@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   imports = [
@@ -26,6 +26,11 @@
   programs.ags = {
     enable = true;
     configDir = ../../ags;
+
+    extraPackages = with pkgs; [
+      inputs.ags.packages.${pkgs.system}.battery
+      inputs.ags.packages.${pkgs.system}.wireplumber
+    ];
   };
 
   # This value determines the Home Manager release that your configuration is
