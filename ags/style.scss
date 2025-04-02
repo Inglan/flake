@@ -1,0 +1,30 @@
+@use "./bar/bar.scss";
+@use "./osd/osd.scss";
+@use "./roundedcorners/roundedcorners.scss";
+@use "./audio/audio.scss";
+@use "./colors";
+
+box.icon {
+    font-family: "Material Symbols Rounded";
+    font-size: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.subheading {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: colors.$base;
+    color: colors.$text;
+    border: none;
+}
+
+button:hover {
+    background-color: colors.$surface0;
+}

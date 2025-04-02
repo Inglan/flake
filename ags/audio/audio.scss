@@ -1,0 +1,31 @@
+@use "../colors";
+
+.AudioWindow {
+    background-color: transparent;
+    > box {
+        background-color: colors.$base;
+        color: colors.$text;
+        border-radius: 20px;
+        margin: 10px;
+        min-width: 400px;
+        padding: 10px;
+    }
+
+    .speakers {
+        .speaker {
+            background-color: transparent;
+            margin-bottom: 8px;
+            padding: 5px;
+            border-radius: 20px;
+            button {
+                background-color: transparent;
+            }
+            > box > box.icon {
+                margin-right: 10px;
+            }
+        }
+        .speaker.selected {
+            background-color: colors.$surface1;
+        }
+    }
+}

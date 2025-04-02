@@ -1,0 +1,21 @@
+@use "../colors";
+
+window.OSD {
+    box.OSD {
+        background: colors.$base;
+        min-width: 40px;
+        margin: 7px;
+        margin-bottom: 14px;
+        border-radius: 20px;
+        padding: 10px;
+
+        > * {
+            margin-top: 10px;
+        }
+
+        levelbar * {
+            margin: 3px;
+            border-radius: 100px;
+        }
+    }
+}
