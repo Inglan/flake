@@ -9,13 +9,7 @@
     catppuccin.url = "github:catppuccin/nix";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     hyprland.url = "github:hyprwm/Hyprland";
-    quickshell = {
-      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
 
-      # THIS IS IMPORTANT
-      # Mismatched system dependencies will lead to crashes and other issues.
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
 
     home-manager = {
       url = "github:nix-community/home-manager";
