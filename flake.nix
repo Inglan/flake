@@ -29,11 +29,15 @@
         inputs.home-manager.nixosModules.default
         {
           # if you use home-manager
-          home-manager.users.ingowolf = {
-            imports = [
-              catppuccin.homeManagerModules.catppuccin
-              ags.homeManagerModules.default
-            ];
+          home-manager = {
+            backupFileExtension = "backup";
+            users.ingowolf = {
+              imports = [
+                ./hosts/laptop/home.nix
+                catppuccin.homeManagerModules.catppuccin
+                ags.homeManagerModules.default
+              ];
+            };
           };
         }
       ];

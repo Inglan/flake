@@ -121,13 +121,6 @@
 
   programs.command-not-found.enable = false;
 
-  home-manager = {
-    backupFileExtension = "backup";
-    users = {
-      "ingowolf" = import ./home.nix;
-    };
-  };
-
   # Install firefox.
   programs.firefox.enable = true;
 
