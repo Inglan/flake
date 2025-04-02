@@ -174,6 +174,7 @@
     pkgs.losslesscut-bin
     pkgs.swtpm
     pkgs.uv
+    pkgs.qt6.qtbase
     inputs.quickshell.packages.${pkgs.stdenv.hostPlatform.system}.quickshell
     inputs.zen-browser.packages.x86_64-linux.default
   ];
