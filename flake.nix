@@ -34,7 +34,7 @@
             users.ingowolf = {
               imports = [
                 ./hosts/laptop/home.nix
-                catppuccin.homeManagerModules.catppuccin
+                catppuccin.homeModules.catppuccin
                 ags.homeManagerModules.default
               ];
             };
