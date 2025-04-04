@@ -175,6 +175,8 @@
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
+  services.twingate.enable = true;
+
   programs.hyprland = {
     enable = true;
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
