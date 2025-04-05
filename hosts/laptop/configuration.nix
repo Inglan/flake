@@ -176,7 +176,7 @@
     pkgs.qbittorrent
     pkgs.brave
     pkgs.mullvad-browser
-    pkgs.tor
+    pkgs.tor-browser
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
