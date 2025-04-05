@@ -177,6 +177,7 @@
     pkgs.brave
     pkgs.mullvad-browser
     pkgs.tor-browser
+    pkgs.insomnia
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
