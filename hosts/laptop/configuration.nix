@@ -174,6 +174,9 @@
     pkgs.thunderbird
     pkgs.qt6.qtbase
     pkgs.qbittorrent
+    pkgs.brave
+    pkgs.mullvad-browser
+    pkgs.tor
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
