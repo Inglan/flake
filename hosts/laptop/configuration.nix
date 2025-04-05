@@ -173,6 +173,7 @@
     pkgs.uv
     pkgs.thunderbird
     pkgs.qt6.qtbase
+    pkgs.qbittorrent
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
