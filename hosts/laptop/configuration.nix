@@ -169,7 +169,6 @@
     pkgs.wget
     pkgs.virt-manager
     pkgs.mcpelauncher-ui-qt
-    pkgs.xdg-desktop-portal-shana
     pkgs.losslesscut-bin
     pkgs.swtpm
     pkgs.uv
