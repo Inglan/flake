@@ -3,7 +3,7 @@
     exec-once = [
       "systemctl --user start hyprpolkitagent"
       "ags run -d ~/.config/ags"
-      "swww-deamon"
+      "swww-daemon"
       "1password --silent"
       "zen"
     ];
