@@ -3,9 +3,11 @@
     bind =
       [
         "$mod, Return, exec, foot"
-        "$mod, B, exec, firefox"
-        ", Print, exec, grimblast copy area"
+        "$mod, B, exec, zen"
         "$mod, Super_L, exec, $menu"
+
+        "$mod, X, killactive"
+
         "$mod, H, movefocus, l"
         "$mod, J, movefocus, d"
         "$mod, K, movefocus, u"
