@@ -180,6 +180,7 @@
     pkgs.mullvad-browser
     pkgs.tor-browser
     pkgs.insomnia
+    pkgs.xdg-desktop-portal-shana
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
