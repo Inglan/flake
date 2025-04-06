@@ -207,7 +207,6 @@
      config.hyprland = {
        default = [
          "hyprland"
-         "gtk"
        ];
        "org.freedesktop.impl.portal.FileChooser" = [
          "termfilechooser"
