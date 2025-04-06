@@ -203,17 +203,17 @@
       xdg-desktop-portal-termfilechooser
     ];
   };
-  # xdg.portal = {
-  #   enable = true;
-  #   config.hyprland = {
-  #     default = [
-  #       "hyprland"
-  #     ];
-  #     "org.freedesktop.impl.portal.FileChooser" = [
-  #       "shana"
-  #     ];
-  #   };
-  # };
+   xdg.portal = {
+     config.hyprland = {
+       default = [
+         "hyprland"
+         "gtk"
+       ];
+       "org.freedesktop.impl.portal.FileChooser" = [
+         "termfilechooser"
+       ];
+     };
+   };
 
   services.twingate.enable = true;
 
