@@ -22,6 +22,7 @@
     # it's a better practice than "default" shown in the video
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
       specialArgs = {inherit inputs;};
+      extraSpecialArgs = {inherit inputs;};
       modules = [
         ./hosts/laptop/configuration.nix
         catppuccin.nixosModules.catppuccin

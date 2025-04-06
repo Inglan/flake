@@ -27,7 +27,7 @@
     enable = true;
     configDir = ../../ags;
     extraPackages = with pkgs; [
-      ags.packages.${pkgs.system}.battery
+      inputs.ags.packages.${pkgs.system}.battery
     ];
   };
 
