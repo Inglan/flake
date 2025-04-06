@@ -10,7 +10,10 @@ export function Audio() {
         vertical={true}
         heightRequest={150}
         inverted={true}
-        onDragged={({ value }) => (speaker.volume = value)}
+        onDragged={({ value }) => {
+          speaker.mute = false;
+          speaker.volume = value;
+        }}
         value={bind(speaker, "volume")}
       />
       <button
