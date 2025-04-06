@@ -8,7 +8,7 @@ App.start({
   css: style,
   main() {
     Bar(App.get_monitors()[0]);
-    RoundedCorners(App.get_monitors()[0]);
+    // RoundedCorners(App.get_monitors()[0]);
     Audio(App.get_monitors()[0]);
   },
 });

@@ -2,14 +2,19 @@
 @use "../colors";
 
 window.Bar {
+    button {
+        background: transparent;
+        border: 0;
+    }
     font-family: "Roboto", sans-serif;
 
     background: transparent;
     > box > .MainBar {
         min-width: 70px;
-        background: colors.$base;
+        /* background: colors.$base; */
         margin-right: 0;
         padding: 8px;
+        padding-right: 0;
         > box {
             margin-bottom: 5px;
         }
@@ -18,7 +23,8 @@ window.Bar {
     box.Workspaces {
         button {
             margin-bottom: 4px;
-            background: colors.$base;
+            /* background: colors.$base; */
+            background: transparent;
             color: colors.$text;
             border-radius: 20px;
             font-size: 20px;
