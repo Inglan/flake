@@ -197,6 +197,12 @@
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
+  xdg.portal = {
+    enable = true;
+    extraPortals = with pkgs; [
+      xdg-desktop-portal-termfilechooser
+    ];
+  };
   # xdg.portal = {
   #   enable = true;
   #   config.hyprland = {
