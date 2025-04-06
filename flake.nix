@@ -30,6 +30,7 @@
         {
           # if you use home-manager
           home-manager = {
+            extraSpecialArgs = {inherit inputs;};
             backupFileExtension = "backup";
             users.ingowolf = {
               imports = [
