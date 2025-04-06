@@ -33,6 +33,20 @@
     ];
   };
 
+  services.logind = {
+    powerKey = "ignore";
+    powerKeyLongPress = "ignore";
+    lidSwitch = "lock";
+    lidSwitchDocked = "ignore";
+    lidSwitchExternalPower = "lock";
+    suspendKey = "ignore";
+    suspendKeyLongPress = "ignore";
+    rebootKey = "ignore";
+    rebootKeyLongPress = "ignore";
+    hibernateKey = "ignore";
+    hibernateKeyLongPress = "ignore";
+  };
+
   programs.lazygit.enable = true;
 
   networking.hostName = "laptop";
