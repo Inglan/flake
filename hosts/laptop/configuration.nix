@@ -202,6 +202,15 @@
     extraPortals = with pkgs; [
       xdg-desktop-portal-termfilechooser
     ];
+    config.Hyprland = {
+      default = [
+        "hyprland"
+        "gtk"
+      ];
+      "org.freedesktop.impl.portal.FileChooser" = [
+        "termfilechooser"
+      ];
+    };
     config.hyprland = {
       default = [
         "hyprland"
