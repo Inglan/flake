@@ -11,6 +11,7 @@
   fonts.packages = with pkgs; [
     nerd-fonts._0xproto
     material-symbols
+    roboto
   ];
 
   catppuccin.sddm.enable = true;
