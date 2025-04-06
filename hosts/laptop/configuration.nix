@@ -194,6 +194,7 @@
     pkgs.tor-browser
     pkgs.insomnia
     pkgs.xdg-desktop-portal-termfilechooser
+    pkgs.gnome-disk-utility
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
