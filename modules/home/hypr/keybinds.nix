@@ -6,6 +6,10 @@
         "$mod, B, exec, firefox"
         ", Print, exec, grimblast copy area"
         "$mod, Super_L, exec, $menu"
+        "$mod, H, movefocus, l"
+        "$mod, J, movefocus, d"
+        "$mod, K, movefocus, u"
+        "$mod, L, movefocus, r"
       ]
       ++ (
         # workspaces
