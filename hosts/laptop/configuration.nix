@@ -10,6 +10,7 @@
 
   fonts.packages = with pkgs; [
     nerd-fonts._0xproto
+    material-symbols
   ];
 
   catppuccin.sddm.enable = true;
