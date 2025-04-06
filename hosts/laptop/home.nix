@@ -26,6 +26,9 @@
   programs.ags = {
     enable = true;
     configDir = ../../ags;
+    extraPackages = with pkgs; [
+      ags.packages.${pkgs.system}.battery
+    ];
   };
 
   # This value determines the Home Manager release that your configuration is
