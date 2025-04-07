@@ -195,6 +195,7 @@
     pkgs.insomnia
     pkgs.xdg-desktop-portal-termfilechooser
     pkgs.gnome-disk-utility
+    pkgs.davinci-resolve
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
