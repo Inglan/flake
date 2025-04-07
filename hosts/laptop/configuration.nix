@@ -200,6 +200,11 @@
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
   xdg.portal = {
     enable = true;
     extraPortals = with pkgs; [
