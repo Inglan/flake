@@ -196,14 +196,9 @@
     pkgs.xdg-desktop-portal-termfilechooser
     pkgs.gnome-disk-utility
     pkgs.godot
-    pkgs.zed
+    pkgs.calibre
     inputs.zen-browser.packages.x86_64-linux.default
   ];
-
-  hardware.graphics = {
-    enable = true;
-    enable32Bit = true;
-  };
 
   xdg.portal = {
     enable = true;
