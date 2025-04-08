@@ -197,6 +197,7 @@
     pkgs.gnome-disk-utility
     pkgs.godot
     pkgs.calibre
+    pkgs.todoist-electron
     inputs.zen-browser.packages.x86_64-linux.default
   ];
 
