@@ -11,6 +11,11 @@
     hyprland.url = "github:hyprwm/Hyprland";
     ags.url = "github:aylur/ags";
 
+    kwin-effects-forceblur = {
+      url = "github:taj-ny/kwin-effects-forceblur";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
