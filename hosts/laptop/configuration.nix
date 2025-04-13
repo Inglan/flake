@@ -198,6 +198,7 @@
     pkgs.godot
     pkgs.calibre
     pkgs.deskreen
+    pkgs.showmethekey
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
   ];
