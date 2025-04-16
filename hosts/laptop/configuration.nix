@@ -200,7 +200,6 @@
     pkgs.deskreen
     pkgs.showmethekey
     pkgs.obs-studio
-    pkgs.plasma5Packages.kdeconnect-kde
     pkgs.nmap
     pkgs.wev
     pkgs.btop
@@ -210,6 +209,8 @@
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
   ];
+
+  programs.kdeconnect.enable = true;
 
   xdg.portal = {
     enable = true;
@@ -295,6 +296,15 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
+  networking.firewall = {
+    enable = true;
+    allowedTCPPortRanges = [
+      { from = 1714; to = 1764; } # KDE Connect
+    ];
+    allowedUDPPortRanges = [
+      { from = 1714; to = 1764; } # KDE Connect
+    ];
+  };
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
