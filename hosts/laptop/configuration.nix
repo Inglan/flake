@@ -200,7 +200,7 @@
     pkgs.deskreen
     pkgs.showmethekey
     pkgs.obs-studio
-    pkgs.kdeconnect
+    pkgs.plasma5Packages.kdeconnect-kde
     pkgs.nmap
     pkgs.wev
     pkgs.btop
