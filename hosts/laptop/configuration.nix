@@ -200,6 +200,13 @@
     pkgs.deskreen
     pkgs.showmethekey
     pkgs.obs-studio
+    pkgs.kdeconnect
+    pkgs.nmap
+    pkgs.wev
+    pkgs.btop
+    pkgs.gnome-network-displays
+    pkgs.xorg.xwininfo
+    pkgs.tree
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
   ];
