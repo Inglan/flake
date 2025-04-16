@@ -205,6 +205,7 @@
     pkgs.btop
     pkgs.gnome-network-displays
     pkgs.xorg.xwininfo
+    pkgs.vlc
     pkgs.tree
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
