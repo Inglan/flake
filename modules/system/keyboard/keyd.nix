@@ -20,6 +20,7 @@
             p = "nextsong";
             o = "playpause";
             i = "previoussong";
+            w = "C-w";
           };
         };
       };
