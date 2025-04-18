@@ -17,9 +17,9 @@
             l = "right";
             f = "C-pagedown";
             d = "C-pageup";
-            p = "XF86AudioNext";
-            o = "XF86AudioPlay";
-            i = "XF86AudioPrev";
+            p = "AudioNext";
+            o = "AudioPlay";
+            i = "AudioPrev";
           };
         };
       };
