@@ -17,9 +17,9 @@
             l = "right";
             f = "C-pagedown";
             d = "C-pageup";
-            p = "AudioNext";
-            o = "AudioPlay";
-            i = "AudioPrev";
+            p = "nextsong";
+            o = "playpause";
+            i = "previoussong";
           };
         };
       };
