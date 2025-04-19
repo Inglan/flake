@@ -207,6 +207,7 @@
     pkgs.xorg.xwininfo
     pkgs.vlc
     pkgs.tree
+    pkgs.tenacity
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
   ];
