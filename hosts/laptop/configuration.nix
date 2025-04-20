@@ -194,7 +194,6 @@
     pkgs.insomnia
     pkgs.xdg-desktop-portal-termfilechooser
     pkgs.gnome-disk-utility
-    pkgs.godot
     pkgs.calibre
     pkgs.deskreen
     pkgs.showmethekey
