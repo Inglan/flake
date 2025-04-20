@@ -182,7 +182,6 @@
     pkgs.zip
     pkgs.wget
     pkgs.virt-manager
-    pkgs.mcpelauncher-ui-qt
     pkgs.losslesscut-bin
     pkgs.swtpm
     pkgs.uv
