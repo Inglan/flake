@@ -193,7 +193,6 @@
     pkgs.mullvad-browser
     pkgs.tor-browser
     pkgs.insomnia
-    pkgs.xdg-desktop-portal-termfilechooser
     pkgs.gnome-disk-utility
     pkgs.calibre
     pkgs.deskreen
