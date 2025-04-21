@@ -224,7 +224,7 @@
         "gtk"
       ];
       "org.freedesktop.impl.portal.FileChooser" = [
-        "termfilechooser"
+        "xdg-desktop-portal-termfilechooser"
       ];
     };
     config.hyprland = {
@@ -233,7 +233,7 @@
         "gtk"
       ];
       "org.freedesktop.impl.portal.FileChooser" = [
-        "termfilechooser"
+        "xdg-desktop-portal-termfilechooser"
       ];
     };
    };
