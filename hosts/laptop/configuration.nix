@@ -114,7 +114,7 @@
   users.users.ingowolf = {
     isNormalUser = true;
     description = "Ingo Wolf";
-    extraGroups = [ "networkmanager" "wheel" "docker" "qemu-libvirtd" "libvirtd" ];
+    extraGroups = [ "networkmanager" "wheel" "docker" "qemu-libvirtd" "libvirtd" "input" ];
   };
   programs.bash = {
     interactiveShellInit = ''
