@@ -209,6 +209,7 @@
     toolbox
     legcord
     stretchly
+    pbpctrl
     inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
     inputs.zen-browser.packages.x86_64-linux.default
   ];
